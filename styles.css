@@ -18,6 +18,11 @@ body {
   text-align: center;
 }
 
+.head-sub {
+  padding-top: 10px;
+  text-align: center;
+}
+
 .navbar {
   background-color: #404040;
   border-radius: 0;
