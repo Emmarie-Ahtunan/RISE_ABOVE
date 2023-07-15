@@ -6,7 +6,8 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 #header_h1 {
@@ -28,6 +29,7 @@ body {
   border-radius: 0;
   box-shadow: 2px 4px 10px rgba(82, 82, 122, 0.58);
   display: flex;
+  justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -42,6 +44,7 @@ body {
   display: inline-block;
   letter-spacing: 2px;
   padding: 15px;
+  padding-right: 20px;
 }
 
 a {
@@ -101,14 +104,24 @@ p {
   letter-spacing: 2px;
 }
 
-.Footer {
+footer {
   background-color: #404040;
   color: #ebe8ec;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   padding: 0.5rem;
+  display: flex;
+  flex: auto;
+  justify-content: space-evenly;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-transform: uppercase;
+}
+.contact {
+  margin-bottom: 21vh;
 }
 
 .container {
@@ -151,6 +164,7 @@ input[type="submit"]:hover {
   border: 1px solid #e5b82e;
   border-radius: 4px;
   text-align: center;
+  margin-bottom: 49vh;
 }
 
 .alert h2 {
@@ -159,6 +173,10 @@ input[type="submit"]:hover {
 
 .alert p {
   color: #404040;
+}
+
+.padding-extra-top {
+  padding-top: 30px;
 }
 
 .alert button {
@@ -176,8 +194,16 @@ input[type="submit"]:hover {
 
 /* Assistance page specific styling */
 
+.assitance {
+  margin-bottom: 36vh;
+}
+
+.volunteer {
+  margin-bottom: 30vh;
+}
+
 section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 section h2 {
@@ -189,7 +215,7 @@ section h2 {
 }
 
 section form {
-  width: 400px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -211,13 +237,7 @@ section input[type="number"] {
 }
 
 /* Volunteer page specific styling */
-
-section form {
-  width: 500px;
-  margin: 0 auto;
-}
-
-section input[type="tel"] {
+x section input[type="tel"] {
   width: 100%;
 }
 
