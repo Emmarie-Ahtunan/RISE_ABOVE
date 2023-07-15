@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 #header_h1 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: 2px;
@@ -23,7 +23,7 @@ body {
   border-radius: 0;
   box-shadow: 2px 4px 10px rgba(82, 82, 122, 0.58);
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
@@ -40,13 +40,13 @@ body {
 }
 
 a {
-  color: #88D4F2;
+  color: #88d4f2;
   margin: 6px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CEE1F2;
+  color: #cee1f2;
 }
 
 main {
@@ -74,15 +74,23 @@ picture {
 }
 
 h2 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
+.article-header {
+  padding-top: 20px;
+}
+
+iframe {
+  padding-top: 20px;
+}
+
 p {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -90,8 +98,8 @@ p {
 
 .Footer {
   background-color: #404040;
-  color: #EBE8EC;
-  font-family: 'Montserrat', sans-serif;
+  color: #ebe8ec;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   padding: 0.5rem;
@@ -116,7 +124,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #38BDF2;
+  background-color: #38bdf2;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -130,38 +138,36 @@ input[type="submit"]:hover {
 
 /* Alerts page specific styling */
 
-
 .alert {
-      width: 800px;
-      margin: 0 auto;
-      padding: 60px;
-      background-color: #F2CB38;
-      border: 1px solid #E5B82E;
-      border-radius: 4px;
-      text-align: center;
-    }
-   
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #f2cb38;
+  border: 1px solid #e5b82e;
+  border-radius: 4px;
+  text-align: center;
+}
+
 .alert h2 {
-      color: #404040;
-  
-    }
+  color: #404040;
+}
 
-  .alert p {
-      color: #404040;
-    }
+.alert p {
+  color: #404040;
+}
 
- .alert button {
-      background-color: #38BDF2;
-      color: white;
-      padding: 15px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
+.alert button {
+  background-color: #38bdf2;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
-  .alert button:hover {
-      background-color: #88D4F2;
-    }
+.alert button:hover {
+  background-color: #88d4f2;
+}
 
 /* Assistance page specific styling */
 
@@ -170,7 +176,7 @@ section {
 }
 
 section h2 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -184,7 +190,7 @@ section form {
 
 section label {
   display: block;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
