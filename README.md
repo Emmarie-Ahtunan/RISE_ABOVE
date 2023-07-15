@@ -1,6 +1,3 @@
-# RISE ABOVE
-Mutual Aid Website for MLH Tech Together July 14 - 16 2023
-
 # R!SE ABOVE
 R!SE ABOVE is an online platform with a mission to empower individuals, organizations, and local governments to collaborate, pool resources, and build resilience following devastating floods.
 
