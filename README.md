@@ -1,7 +1,8 @@
-# R!SE ABOVE
+# RISE ABOVE
 R!SE ABOVE is an online platform with a mission to empower individuals, organizations, and local governments to collaborate, pool resources, and build resilience following devastating floods.
 
-![Logo image for RISE ABOVE)](https://github.com/vekja/RiseAbove/assets/86572370/3f5a6b4f-41f6-4c33-a98d-178cf44913f1) 
+![LogoRiseAbove](https://github.com/Emmarie-Ahtunan/RISE_ABOVE/assets/86572370/16808028-026b-47df-a959-505eb8566029)
+
 
 # Inspiration
 
@@ -11,11 +12,11 @@ Climate change-induced flooding presents a significant and escalating threat to 
 
 # What it does
 
-R!SE ABOVE, allows affected communities gain access to a robust network of volunteers, professionals, and resources dedicated to flood recovery and rebuilding efforts. Our user-friendly website serves as a centralized hub where users can request and offer assistance, exchange vital information, and coordinate community-driven initiatives. No community should face the aftermath of a flood alone.
+RISE ABOVE, allows affected communities gain access to a robust network of volunteers, professionals, and resources dedicated to flood recovery and rebuilding efforts. Our user-friendly website serves as a centralized hub where users can request and offer assistance, exchange vital information, and coordinate community-driven initiatives. No community should face the aftermath of a flood alone.
 
 # How we built it
 
-We built R!SE ABOVE using html, css, and deployed our site to GitHub Pages.
+I built RISE ABOVE using html, css, and deployed our site to GitHub Pages.
 
 # Challenges we ran into
 
